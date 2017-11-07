@@ -1,0 +1,88 @@
+body {
+    background: url("bg.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.wrapper {
+    height: 639px;
+    width: 1200px;
+    border: 0px solid black;
+    background: ;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    font-family: calibri;
+    font-size: 1.3em;
+}
+.header {
+    height: 100px;
+    width: 1180px;
+    border: 1px solid white;
+    margin: 7px 1px 1px 7px;
+    background: #8e44ad;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+#menu {
+    position: relative;
+    width: 1173px;
+    height: 45px;
+    background: #000000;
+    border: 5px solid #c9c9c9; 
+    margin-left: 7px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    font-size:    14px;
+}
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#menu ul li {
+    float: left;
+    position: relative;
+}
+#menu ul li a {
+    float: left;
+    color: #ffffff;
+    padding: 14px;
+    display: block;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    background: #ffffff;
+    height: 18px;
+}
+
+.content {
+    height: 425px;
+    width: 762px;
+    border: 1px solid #ffffff;
+    margin: 2px 9px 0px 7px;
+	background:white;
+	color:white;
+    float: left;
+    text-align: center;
+}
+.sidebar {
+    height: 425px;
+    width: 407px;
+    border: 1px solid #ffffff;
+    margin: 2px 1px 0px 0px;
+	background:#999999;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+}
+.footer {
+    height: 35px;
+    width: 1180px;
+    border: 1px solid white;
+    margin: 7px 1px 0px 7px;
+    background: #000000;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+}
